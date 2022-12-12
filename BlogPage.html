@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/StyleSheet2.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="header_inner">
+                    <nav class="menu">
+                        <ul class="menu_list">
+                            <li class="menu_list-item">
+                                <a class="menu_list-link" href="about.html">Обо мне</a>
+                            </li>
+                            <li class="menu_list-item">
+                                <a class="menu_list-link" href="gallery.html">Галерея</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="logo" href="index.html">
+                        <img src="images/logo.png" alt="Моя страсть" />
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu_list">
+                            <li class="menu_list-item">
+                                <a class="menu_list-link menu_list-link-active" href="#">
+                                    Блог
+                                </a>
+                            </li>
+                            <li class="menu_list-item">
+                                <a class="menu_list-link" href="contact.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="breadcrumbs">
+                <div class="container">
+                    <ul class="breadcrumbs_list">
+                        <li class="breadcrumbs_item">
+                            <a class="breadcrumbs_link" href="index.html">Блог</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="blog">
+                <div class="container">
+                    <div class="blog_inner">
+                        <div class="blog_items">
+                            <div class="blog_item">
+                                <img class="blog_item-img"
+                                     src="images/italy.jpg"
+                                     alt="Italy" />
+                                <div class="blog_item-info">
+                                    <span calss="blog_item-date">Декабрь 12, 2022 |</span>
+                                    <a calss="blog_item-author" href="#">by Lana_banana |</a>
+                                    <a calss="blog_item-theme" href="#">Моя Италия</a>
+                                </div>
+
+                                <a class="blog_item-link" href="blog-one.html">
+                                    <h3 class="blog_item-title">
+                                        ПЕРВОЕ ПУТЕШЕСТВИЕ! - это как первая любовь
+                                    </h3>
+                                </a>
+                                <p class="blog_item-text">
+                                    Первый полет на сомолете, первый рассвет на море, первая паста, первый трюфель.
+                                    Я предоставлена только себе самой.
+                                    Рискнула отправиться в свое первое путешествие одна.
+                                    И не пожалела ни на минуту ...
+                                </p>
+                            </div>
+                            <blockquote class="blog_blockquote">
+                                “В Италии все неспешно. Лучшее, что можно сделать в Италии - перенять размеренный, неспешный темп жизни итальянцев. 
+                                Смотреть, слушать, дышать. И обязательно много и вкусно есть”
+                                <div class="blog_blockquote-author">Lana_Banana</div>
+                            </blockquote>
+                           
+                            <div class="blog_item article-slider">
+                                <div class="article-slider_box">
+                                    <img class="article-slider_img"
+                                         src="images/spain2.jpg"
+                                         alt="Spain" />
+                                    <!--
+                                    <img class="article-slider_img"
+                                         src="images/spain1.jpg"
+                                         alt="Spain" />
+                                    <img class="article-slider_img"
+                                         src="images/spain3.jpg"
+                                         alt="Spain" />
+                                    -->
+                                </div>
+                                <div class="blog_item-info">
+                                    <span calss="blog_item-date">Ноябрь 11, 2022 |</span>
+                                    <a calss="blog_item-author" href="#">by Lana_banana |</a>
+                                    <a calss="blog_item-theme" href="#">Темпераментная Испания</a>
+                                </div>
+                                <a class="blog_item-link" href="#">
+                                    <h3 class="blog_item-title">
+                                        Жаркими ночами страстно танцевала Фламенко под испанскую гитару она
+                                    </h3>
+                                </a>
+                                <p class="blog_item-text">
+                                    Еще со времен первого путешествия в Италию, я решила привозить из других стран не сувениры, а навыки.
+                                    Из Испании, я была уверена, я привезу рецепт паэльи и несколько бутылочек доброго вина.
+                                    А привезла танец. ФЛАМЕНКО
+                                </p>
+                            </div>
+                            
+                            <div class="pagination">
+                                <a class="pagination_arrow pagination_arrow-disabled"
+                                   href="#">
+                                    <img class="pagination_arrow-icon"
+                                         src="images/arrow-left.svg"
+                                         alt="arrow left" />
+                                </a>
+                                <ul class="pagination_list">
+                                    <li class="pagination_list-item">
+                                        <a class="pagination_list-num pagination_list-num-active" href="#"> 1 </a>
+                                    </li>
+                                    <li class="pagination_list-item">
+                                        <a class="pagination_list-num" href="#">2</a>
+                                    </li>
+                                </ul>
+                                <a class="pagination_arrow" href="#">
+                                    <img class="pagination_arrow-icon"
+                                         src="images/arrow-right.svg"
+                                         alt="arrow right" />
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <aside class="aside">
+                            <form class="aside_search">
+                                <input class="aside_search-input"
+                                       type="text"
+                                       placeholder="Поиск" />
+                                <button class="aside_search-btn" type="submit">
+                                    <img src="images/search-icon.svg" alt="поиск" />
+                                </button>
+                            </form>
+                            <div class="blog_category">
+                                <h6 class="blog_category-title">Страны</h6>
+                                <ul class="blog_category-list">
+                                    <li class="blog_category-item">
+                                        <a class="blog_category-link" href="#">
+                                            Италия (1)
+                                        </a>
+                                    </li>
+                                    <li class="blog_category-item">
+                                        <a class="blog_category-link" href="#">
+                                            Египет (3)
+                                        </a>
+                                    </li>
+                                    <li class="blog_category-item">
+                                        <a class="blog_category-link" href="#">
+                                            Кипр (1)
+                                        </a>
+                                    </li>
+                                    <li class="blog_category-item">
+                                        <a class="blog_category-link" href="#">
+                                            Испания (1)
+                                        </a>
+                                    </li>
+                                    <li class="blog_category-item">
+                                        <a class="blog_category-link" href="#">
+                                            Турция (2)
+                                        </a>
+                                    </li>
+                                    <li class="blog_category-item">
+                                        <a class="blog_category-link" href="#">
+                                            Франция (1)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="recent-posts">
+                                <h6 class="recent-posts_title">Последние посты</h6>
+                                <ul class="recent-posts_list">
+                                    <li class="recent-posts_item">
+                                        <a class="recent-posts_item-title" href="#">
+                                            Турция может быть не хуже Европы, если захотеть.
+                                        </a>
+                                        <span class="recent-posts_date">Сентябрь 9, 2022 |</span>
+                                       
+                                        <a class="recent-posts_author" href="#">
+                                            by Lana Banana
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="recent-posts_item">
+                                        <a class="recent-posts_item-title" href="#">
+                                            Египет стал местом преодоления себя. Три поездки - три погружения с аквалангом.
+                                        </a>
+                                        <span class="recent-posts_date">Август 8, 2022 |</span>
+                                        
+                                        <a class="recent-posts_author" href="#">
+                                            by Lana Banana
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="blog_tags">
+                                <h6 class="blog_tags-title">Тэги</h6>
+                                <a class="blog_tags-link" href="#">Италия</a>
+                                <a class="blog_tags-link" href="#">Испания</a>
+                                <a class="blog_tags-link" href="#">Турция</a>
+                                <a class="blog_tags-link" href="#">Кипр</a>
+                                <a class="blog_tags-link" href="#">Египет</a>
+                                <a class="blog_tags-link" href="#">Франция</a>
+                            </div>
+
+                            <ul class="blog_social">
+                                <li class="blog_socia-item">
+                                    <a class="blog_social-link" href="">
+                                        <img class="blog_social-item"
+                                             src="images/facebook.svg"
+                                             alt="facebook" />
+                                    </a>
+                                </li>
+                                <li class="blog_socia-item">
+                                    <a class="blog_social-link" href="">
+                                        <img class="blog_social-item"
+                                             src="images/instagram.svg"
+                                             alt="instagram" />
+                                    </a>
+                                </li>
+                                <li class="blog_socia-item">
+                                    <a class="blog_social-link" href="">
+                                        <img class="blog_social-item"
+                                             src="images/interest.svg"
+                                             alt="pinterest" />
+                                    </a>
+                                </li>
+                                <li class="blog_socia-item">
+                                    <a class="blog_social-link" href="">
+                                        <img class="blog_social-item"
+                                             src="images/youtube.svg"
+                                             alt="youtube" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                     </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer_content">
+                <div class="container">
+                    <div class="footer_inner">
+                        <div class="footer_info">
+                            <h6 class="footer_info-title">Есть вопросы? Напиши мне</h6>
+                             <a class="info-email" href="mailto:ouremailaddress@email.com">
+                                a.lubovitskaya@mail.ru
+                            </a>
+                            <p class="footer_info-text">
+                                Если тебе интересно, у тебя есть время и желание попробовать необычное путешествие,
+                                подпишись на новости. Я продолжу делиться интересными маршрутами в разных странах с тобой
+                            </p>
+                            <form action="" class="footer_form">
+                                <input class="footer_form-input"
+                                       type="email"
+                                       placeholder="Подпишись на рассылку" />
+                                <button class="footer_form-button" type="submit">
+                                    Отправить
+                                </button>
+                            </form>
+                        </div>
+                        <ul class="footer_social">
+                            <li class="footer_social-item">
+                                <a class="footer_social-link footer_social-link-facebook"
+                                   href="#">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer_social-item">
+                                <a class="footer_social-link footer_social-link-instagram"
+                                   href="#">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer_social-item">
+                                <a class="footer_social-link footer_social-link-instagram"
+                                   href="#">
+                                    Telegram
+                                </a>
+                            </li>
+                            <li class="footer_social-item">
+                                <a class="footer_social-link footer_social-link-youtube"
+                                   href="#">
+                                    Youtube
+                                </a>
+                            </li>
+                        </ul>
+                        <nav class="footer_menu">
+                            <ul class="footer_menu-list">
+                                <li class="footer_menu-item">
+                                    <a class="footer_menu-link" href="#">Вопросы</a>
+                                </li>
+                                <li class="footer_menu-item">
+                                    <a class="footer_menu-link" href="#">Будущие маршруты</a>
+                                </li>
+                                <li class="footer_menu-item">
+                                    <a class="footer_menu-link" href="#">Карта сайта</a>
+                                </li>
+                                <li class="footer_menu-item">
+                                    <a class="footer_menu-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <div class="container">
+                    <p>Lana Banana. Brest, Belarus</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
